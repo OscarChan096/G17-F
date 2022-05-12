@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+    background-color: rgb(223, 223, 223);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #00A7F4;
+    padding: 10px;
+}
+
+img.image-profile{
+    position: absolute;
+    margin-top: 1%;
+    width: 10%;
+    height: 35%;
+}
+
+img.name{
+    position: absolute;
+    margin-top: 11%;
+    width: 200px;
+}
+
+.download-cv{
+    position: absolute;
+    margin-top: 16%;
+    background-color: #00A7F4;
+    color: #ffF;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.download-cv:hover{
+    background-color: #fff;
+    color: #00A7F4;
+}
+
+img.circle{
+    border-radius: 50%;
+}
+
+img.banner{
+    width: 95%;
+    height: 300px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #00A7F4;
+    padding: 10px;
+    /*box-shadow: 2px 2px 3px rgb(110, 110, 110);*/
+}
+
+nav ul{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    border: 1px solid #00A7F4;
+    border-radius: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #00a7f4;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.tiles{
+    background-color: #fff;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 25px 25px 25px 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px rgb(110, 110, 110);
+}
+
+.about{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.my-objective{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+span.text-bold{
+    font-weight: bold;
+}
+
+.basic-info{
+    margin-right: 5%;
+}
+
+.skills-div{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.hardskills{
+    width: 50%;
+    margin-left: 5%;
+}
+
+progress[value] {
+    width: 250px;
+    height: 20px;
+  }
+
+.softskills{
+    width: 50%;
+    margin-right: 5%;
+}
+
+.skills{
+    counter-reset: li; 
+    list-style: none;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.skills ul{
+    margin: 0 0 0 2em;
+}
+
+.skills li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: 2em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.skills li:hover{
+    background: #eee;
+}
+
+.skills li:hover::before{
+    transform: rotate(360deg);
+}
+
+.skills li::before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.educacion{
+    padding-left: 5%;
+    background-color: #fff;
+}
+
+p.design-letter::first-letter{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.contactame{
+    padding-left: 5%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-softchan{
+    width: 3%;
+    margin-right: 1%;
+}
+
+footer{
+    background-color: #00a7f4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+li{
+    padding: 5px;
+}
+
+hr{
+    margin: 3% 0% 3% 0%;
+}
